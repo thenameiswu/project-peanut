@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"lib": ["es2017", "esnext"],
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+
+		"types": ["@citizenfx/client"],
+		"moduleResolution": "node",
+
+		"module": "commonjs",
+		"baseUrl": "./",
+
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"strict": true
+	},
+	"exclude": ["**/node_modules/**"]
+}

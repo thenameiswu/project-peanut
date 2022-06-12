@@ -10,6 +10,10 @@ games {'gta5'}
 lua54 'yes'
 use_fxv2_oal 'yes'
 
+server_scripts {
+    'build/server.js'
+}
+
 client_scripts {
-    'client/*.lua',
+    'build/client.js'
 }
