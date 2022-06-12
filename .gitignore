@@ -10,3 +10,5 @@ keys.cfg
 /cache/
 /resources/\[local\]/
 /db/
+
+**/build/**
