@@ -5,3 +5,6 @@ keys.cfg
 *.lock
 .env
 
+/cache/
+/resources/\[local\]/
+/db/
