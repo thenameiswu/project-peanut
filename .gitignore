@@ -1,5 +1,5 @@
-#server.cfg
-#keys.cfg
+server.cfg
+keys.cfg
 
 **/node_modules/**
 *.lock
