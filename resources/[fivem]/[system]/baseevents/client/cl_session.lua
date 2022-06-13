@@ -1,8 +1,8 @@
 CreateThread(function()
     while true do
-        if (NetworkIsSessionStart()) then
-            TriggerEvent('peanut:client:onSessionStart')
-            TriggerServerEvent('peanut:client:onSessionStart')
+        if (NetworkIsSessionStarted()) then
+            TriggerEvent('Peanut:Client:PlayerJoin')
+            TriggerServerEvent('Peanut:Server:PlayerJoin')
 
             break;
         end

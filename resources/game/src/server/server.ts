@@ -1,8 +1,11 @@
+// Depends
 import 'reflect-metadata';
-
 // Controllers
-import './controllers/spawn.controller'
+import PlayerController from "@controllers/player.controller";
 
+RegisterCommand('players', (s: number, a: string[], r: string) => {
+	console.log(PlayerController.playersBySource);
+}, false)
 
 on('onResourceStart', (name: string) => {
 	if (name !== GetCurrentResourceName()) {
